@@ -11,6 +11,7 @@ Authors@R: c(
     person("James", "Collins", email = "james.r.collins@aya.yale.edu", role = c("cre"))
     )
 Depends: xcms, CAMERA, LOBSTAHS
+Imports: methods
 Suggests: gplots, RColorBrewer, cluster, vegan, clustsig
 Description: Annotated HPLC-ESI-MS lipid data in positive ionization mode from
     an experiment in which cultures of the marine diatom Phaeodactylum
