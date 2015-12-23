@@ -12,7 +12,7 @@ Positive ionization mode HPLC-ESI-MS lipid data from an experiment in which cult
 \format{
   A list object containing the lipid data in two forms:
   \describe{
-    \item{\code{PtH2O2lipids$LOBSet}}{A 1.2 MB object of formal class \code{\link[LOBSTAHS]{\sQuote{LOBSet}}} containing screened peak data to which compound assignments and isomer identifications have been made. The structure of \code{PtH2O2lipids$LOBSet} is: \preformatted{
+    \item{\code{PtH2O2lipids$LOBSet}}{A 1.2 MB object of formal class \code{\sQuote{\link{LOBSet}}} containing screened peak data to which compound assignments and isomer identifications have been made. The structure of \code{PtH2O2lipids$LOBSet} is: \preformatted{
 Formal class 'LOBSet' [package "LOBSTAHS"] with 9 slots
   ..@ peakdata             :'data.frame':	1969 obs. of  54 variables
   ..@ iso.C3r              :List of 1969
@@ -30,7 +30,7 @@ Formal class 'LOBSet' [package "LOBSTAHS"] with 9 slots
   ..@ polarity             : Factor w/ 1 level "positive": 1
   ..@ sampnames            : chr [1:16] "0uM_24h_Orbi_0468" "0uM_24h_Orbi_0473" "0uM_4h_Orbi_0476" "0uM_8h_Orbi_0472" ...
   }}
-  \item{\code{PtH2O2lipids$xsAnnotate}}{An 80 MB object of formal class \code{\link[CAMERA]{\sQuote{xsAnnotate}}} containing 18,314 peakgroups in 5,080 pseudospectra. This is the object from which \code{PtH2O2lipids$LOBSet} was created using \code{doLOBscreen}. It includes annotation of possible isotope peaks from \code{findIsotopes}. The \code{xcmsSet} from which the xsAnnotate object was created (64.5 MB) can be accessed at \code{PtH2O2lipids$xsAnnotate@xcmsSet}.
+  \item{\code{PtH2O2lipids$xsAnnotate}}{An 80 MB object of formal class \code{\sQuote{\link{xsAnnotate}}} containing 18,314 peakgroups in 5,080 pseudospectra. This is the object from which \code{PtH2O2lipids$LOBSet} was created using \code{doLOBscreen}. It includes annotation of possible isotope peaks from \code{findIsotopes}. The \code{xcmsSet} from which the xsAnnotate object was created (64.5 MB) can be accessed at \code{PtH2O2lipids$xsAnnotate@xcmsSet}.
   }
   }
   }
@@ -46,11 +46,11 @@ Formal class 'LOBSet' [package "LOBSTAHS"] with 9 slots
 }
 }
 \seealso{
-  \code{\linkS4class[LOBSTAHS]{LOBSet}},
-  \code{\link[LOBSTAHS]{doLOBscreen}},
-  \code{\link[LOBSTAHS]{getLOBpeaklist}},
-  \code{\linkS4class[xcms]{xcmsSet}},
-  \code{\linkS4class[CAMERA]{xsAnnotate}}
+  \code{\linkS4class{LOBSet}},
+  \code{\link{doLOBscreen}},
+  \code{\link{getLOBpeaklist}},
+  \code{\linkS4class{xcmsSet}},
+  \code{\linkS4class{xsAnnotate}}
 }
 \examples{
 ## generate the object in PtH2O2lipids$LOBSet using PtH2O2lipids$xsAnnotate as
