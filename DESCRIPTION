@@ -19,8 +19,8 @@ Description: Annotated HPLC-ESI-MS lipid data in positive ionization mode from
     Creveld, et al., 2015, "Early perturbation in mitochondria redox homeostasis
     in response to environmental stress predicts cell fate in diatoms," ISME
     Journal 9:385-395. PtH2O2lipids consists of two objects: A CAMERA xsAnnotate
-    object (PtH2O2lipids$xsAnnotate) and LOBSTAHS LOBSet object
-    (PtH2O2lipids$xsAnnotate$LOBSet). The LOBSet includes putative compound
+    object (ptH2O2lipids$xsAnnotate) and LOBSTAHS LOBSet object
+    (ptH2O2lipids$xsAnnotate$LOBSet). The LOBSet includes putative compound
     assignments from the default LOBSTAHS database. Isomer annotation is
     recorded in three other LOBSet slots.
 License: MIT + file LICENSE
