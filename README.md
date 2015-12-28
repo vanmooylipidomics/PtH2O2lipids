@@ -11,7 +11,9 @@ Upon executing `library(PtH2O2lipids)`, a list object `ptH2O2lipids` is loaded i
 
 ```R
 
-doLOBscreen(xsAnnotate, polarity = "positive", database = NULL, remove.iso = TRUE, rt.restrict =  TRUE, rt.windows = NULL, exclude.oddFA = TRUE, match.ppm = 2.5)
+doLOBscreen(xsAnnotate, polarity = "positive", database = NULL,
+            remove.iso = TRUE, rt.restrict =  TRUE, rt.windows = NULL,
+            exclude.oddFA = TRUE, match.ppm = 2.5)
 
 ```
 
