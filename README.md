@@ -12,3 +12,51 @@ The .mzXML and Thermo (.raw) data files from which the objects in the dataset we
 
    * The converted and centroided .mzXML files can be downloaded from [PtH2O2lipids/mzXML](https://github.com/vanmooylipidomics/PtH2O2lipids/tree/master/mzXML)
    * The original Thermo .raw files and some metadata can be accessed at http://www.whoi.edu/page.do?pid=133616&tid=282&cid=192529.
+   
+<h4>Installation</h4>
+
+**Install all dependencies except LOBSTAHS**
+
+```R
+
+source("http://bioconductor.org/biocLite.R")
+biocLite("CAMERA")
+biocLite("xcms")
+
+```
+
+**Install RTools**
+
+For windows:
+Download and install RTools from [http://cran.r-project.org/bin/windows/Rtools/](http://cran.r-project.org/bin/windows/Rtools/)
+
+For Unix:
+Install the R-development-packages (r-devel or r-base-dev)
+
+Install packages needed for installation from Github:
+
+```R
+
+install.packages("devtools")
+
+```
+
+**Install LOBSTAHS**
+
+```R
+
+library("devtools")
+install_github("vanmooylipidomics/LOBSTAHS") 
+
+```
+
+**Install 'PtH2O2lipids,' containing example data & xsAnnotate object**
+
+```R
+## install dataset 'PtH2O2lipids'
+## see LOBSTAHS documentation for examples 
+
+install_github("vanmooylipidomics/PtH2O2lipids)
+
+```
+
