@@ -56,6 +56,7 @@ Graff van Creveld, et al., 2015, \dQuote{Early perturbation in mitochondria redo
   \code{\linkS4class{xsAnnotate}}
 }
 \examples{
+\donttest{
 ## generate the object in ptH2O2lipids$LOBSet using ptH2O2lipids$xsAnnotate as
 ## input
 library(PtH2O2lipids)
@@ -64,6 +65,7 @@ library(PtH2O2lipids)
 myPtH202LOBSet = doLOBscreen(ptH2O2lipids$xsAnnotate, polarity = "positive",
 database = NULL, remove.iso = TRUE, rt.restrict =  TRUE, rt.windows = NULL,
 exclude.oddFA = TRUE, match.ppm = 2.5)
+}
 
 ## access xsAnnotate object
 ptH2O2lipids$xsAnnotate
