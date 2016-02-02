@@ -17,7 +17,7 @@ doLOBscreen(xsAnnotate, polarity = "positive", database = NULL,
 
 ```
 
-Arguments of `NULL` for `database` and `rt.windows` cause the function to use the package default database and retention time windows. Generation of the database was accomplished using the LOBSTAHS function `generateLOBdbase()`. Methods used to create the databases and retention time windows are described in Collins, J.R., B.R. Edwards, H.F. Fredricks, and B.A.S. Van Mooy, "Untargeted discovery and identification of oxidative stress biomarkers using a lipidomics pipeline for complex datasets"
+Arguments of `NULL` for `database` and `rt.windows` cause the function to use the package default database and retention time windows. Generation of the database was accomplished using the LOBSTAHS function `generateLOBdbase()`. Methods used to create the databases and retention time windows are described in Collins, J.R., B.R. Edwards, H.F. Fredricks, and B.A.S. Van Mooy, "Semi-untargeted discovery and identification of oxidative stress biomarkers using a lipidomics pipeline for complex datasets"
 
 <h4>.mzXML and .raw data files</h4>
 The .mzXML and Thermo (.raw) data files from which the objects in the dataset were created are not included in the `PtH2O2lipids` library due to their very large size.
