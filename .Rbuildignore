@@ -2,3 +2,4 @@
 ^\.Rproj\.user$
 mzXML
 ^.*\.tar\.gz$
+.Rapp.history
