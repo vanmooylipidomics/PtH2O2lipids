@@ -1,7 +1,7 @@
 Package: PtH2O2lipids
 Title: P. tricornutum HPLC-ESI-MS Lipid Data from van Creveld et al. (2015)
-Version: 1.2
-Date: 2016-02-01
+Version: 0.99.0
+Date: 2016-04-21
 Authors@R: c(
     person("Shiri", "Graff van Creveld", email = "shirigraff@gmail.com", role = c("aut")),
     person("Shilo", "Rosenwasser", email = "shilo.rosenwasser@weizmann.ac.il", role = c("aut")),
@@ -10,7 +10,7 @@ Authors@R: c(
     person("Assaf", "Vardi", email = "assaf.vardi@weizmann.ac.il", role = c("aut")),
     person("James", "Collins", email = "james.r.collins@aya.yale.edu", role = c("cre"))
     )
-Depends: R (>= 3.2.2), xcms, CAMERA, LOBSTAHS, methods
+Depends: R (>= 3.2.2), xcms, CAMERA, LOBSTAHS, methods, utils
 Suggests: gplots, RColorBrewer, cluster, vegan, clustsig
 Description: Annotated HPLC-ESI-MS lipid data in positive ionization mode from
     an experiment in which cultures of the marine diatom Phaeodactylum
@@ -26,3 +26,4 @@ Description: Annotated HPLC-ESI-MS lipid data in positive ionization mode from
 License: MIT + file LICENSE
 URL: http://dx.doi.org/10.1038/ismej.2014.136, https://github.com/vanmooylipidomics/PtH2O2lipids, http://www.whoi.edu/page.do?pid=133616&tid=282&cid=192529
 BugReports: https://github.com/vanmooylipidomics/PtH2O2lipids/issues/new
+biocViews: MassSpectrometry, Metabolomics, Lipidomics
