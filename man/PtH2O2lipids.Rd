@@ -35,7 +35,7 @@ Formal class 'LOBSet' [package "LOBSTAHS"] with 9 slots
   }
   }
 \details{
-\code{ptH2O2lipids$LOBSet} includes compound identifications assigned from the default \code{LOBSTAHS} positive mode database. \code{ptH2O2lipids$LOBSet} also includes in \code{@iso.C3r}, \code{@iso.C3f}, and \code{@iso.C3c} the various possible isomers identified for each compound.
+\code{ptH2O2lipids$LOBSet} includes compound identifications assigned from the default \code{LOBSTAHS} positive mode database. \code{ptH2O2lipids$LOBSet} also includes in \code{@iso.C3r}, \code{@iso.C3f}, and \code{@iso.C3c} the various possible isomers identified for each compound. Note that all other slots in the ptH2O2lipids object can be accessed using the accessor functions described for the \code{"{\link{LOBSet}}"} object class.
 
 The dataset contains peaks from 16 samples that span three H2O2 treatments (0, 30 and 150 \eqn{\mu}M) and three timepoints (+4, +8, and +24 hours) in duplicate. The dataset contains only one replicate sample for the 0 and 150 \eqn{\mu}M treatments at + 4h.
 
