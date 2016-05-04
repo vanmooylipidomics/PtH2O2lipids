@@ -10,7 +10,7 @@ Authors@R: c(
     person("Assaf", "Vardi", email = "assaf.vardi@weizmann.ac.il", role = c("aut")),
     person("James", "Collins", email = "james.r.collins@aya.yale.edu", role = c("cre"))
     )
-Depends: R (>= 3.2.2), xcms, CAMERA, LOBSTAHS, methods, utils
+Depends: R (>= 3.3), xcms, CAMERA, LOBSTAHS, methods, utils
 Suggests: gplots, RColorBrewer, cluster, vegan, clustsig
 Description: Annotated HPLC-ESI-MS lipid data in positive ionization mode from
     an experiment in which cultures of the marine diatom Phaeodactylum
