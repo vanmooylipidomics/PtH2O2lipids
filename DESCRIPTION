@@ -1,14 +1,20 @@
 Package: PtH2O2lipids
 Title: P. tricornutum HPLC-ESI-MS Lipid Data from van Creveld et al. (2015)
-Version: 0.99.1
-Date: 2016-05-05
+Version: 0.99.2
+Date: 2016-06-15
 Authors@R: c(
-    person("Shiri", "Graff van Creveld", email = "shirigraff@gmail.com", role = c("aut")),
-    person("Shilo", "Rosenwasser", email = "shilo.rosenwasser@weizmann.ac.il", role = c("aut")),
-    person("Daniella", "Schatz", email = "daniella.schatz@weizmann.ac.il", role = c("aut")),
-    person("Ilan", "Koren", email = "ilan.koren@weizmann.ac.il", role = c("aut")),
-    person("Assaf", "Vardi", email = "assaf.vardi@weizmann.ac.il", role = c("aut")),
-    person("James", "Collins", email = "james.r.collins@aya.yale.edu", role = c("cre"))
+    person("Shiri", "Graff van Creveld", email = "shirigraff@gmail.com",
+           role = c("aut")),
+    person("Shilo", "Rosenwasser", email = "shilo.rosenwasser@weizmann.ac.il",
+           role = c("aut")),
+    person("Daniella", "Schatz", email = "daniella.schatz@weizmann.ac.il",
+           role = c("aut")),
+    person("Ilan", "Koren", email = "ilan.koren@weizmann.ac.il",
+           role = c("aut")),
+    person("Assaf", "Vardi", email = "assaf.vardi@weizmann.ac.il",
+           role = c("aut")),
+    person("James", "Collins", email = "james.r.collins@aya.yale.edu",
+           role = c("cre"))
     )
 Depends: R (>= 3.3), xcms, CAMERA, LOBSTAHS, methods, utils
 Suggests: gplots, RColorBrewer, cluster, vegan, clustsig
