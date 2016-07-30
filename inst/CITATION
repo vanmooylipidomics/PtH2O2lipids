@@ -8,14 +8,14 @@ citEntry(entry="article",
    identification of oxidative stress biomarkers",
    journal="Analytical Chemistry",
    year="2016",
-   volume="?",
-   pages="??--??",
+   volume="88",
+   pages="7154-7162",
    url="http://dx.doi.org/10.1021/acs.analchem.6b01260",
    textVersion = paste("Collins, J. R., B. R. Edwards, H. F. Fredricks, and",
                        "B. A. S. Van Mooy. 2016.",
                        "LOBSTAHS: An adduct-based lipidomics strategy for",
                        "discovery and identification of oxidative stress",
-                       "biomarkers. Analytical Chemistry"))
+                       "biomarkers. Analytical Chemistry 88:7154-7162"))
 
 citEntry(entry="article",
    author=c(

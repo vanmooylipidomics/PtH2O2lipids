@@ -17,7 +17,7 @@ doLOBscreen(xsAnnotate, polarity = "positive", database = NULL,
 
 ```
 
-Arguments of `NULL` for `database` and `rt.windows` cause the function to use the package default database and retention time windows. Generation of the database was accomplished using the LOBSTAHS function `generateLOBdbase()`. Methods used to create the databases and retention time windows are described in Collins, J.R., B.R. Edwards, H.F. Fredricks, and B.A.S. Van Mooy, 2016, "LOBSTAHS: An adduct-based lipidomics strategy for discovery and identification of oxidative stress biomarkers," in review, *Anal. Chem.*
+Arguments of `NULL` for `database` and `rt.windows` cause the function to use the package default database and retention time windows. Generation of the database was accomplished using the LOBSTAHS function `generateLOBdbase()`. Methods used to create the databases and retention time windows are described in Collins, J.R., B.R. Edwards, H.F. Fredricks, and B.A.S. Van Mooy, 2016, "LOBSTAHS: An adduct-based lipidomics strategy for discovery and identification of oxidative stress biomarkers," *Anal. Chem.* **88**: 7154-7162.
 
 Users should note that the version of the ptH2O2lipids LOBSet in this package does not include any PUA identifications. 
 
