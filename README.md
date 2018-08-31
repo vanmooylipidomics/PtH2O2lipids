@@ -33,9 +33,10 @@ The .mzXML and Thermo (.raw) data files from which the objects in the dataset we
 
 ```R
 
-source("http://bioconductor.org/biocLite.R")
-biocLite("CAMERA")
-biocLite("xcms")
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("CAMERA")
+BiocManager::install("xcms")
 
 ```
 
