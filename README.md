@@ -17,25 +17,26 @@ doLOBscreen(xsAnnotate, polarity = "positive", database = NULL,
 
 ```
 
-Arguments of `NULL` for `database` and `rt.windows` cause the function to use the package default database and retention time windows. Generation of the database was accomplished using the LOBSTAHS function `generateLOBdbase()`. Methods used to create the databases and retention time windows are described in Collins, J.R., B.R. Edwards, H.F. Fredricks, and B.A.S. Van Mooy, 2016, "LOBSTAHS: An adduct-based lipidomics strategy for discovery and identification of oxidative stress biomarkers," *Anal. Chem.* **88**: 7154-7162.
+Arguments of `NULL` for `database` and `rt.windows` cause the function to use the package default database and retention time windows. Generation of the database was accomplished using the LOBSTAHS function `generateLOBdbase()`. Methods used to create the databases and retention time windows are described in Collins, J.R., B.R. Edwards, H.F. Fredricks, and B.A.S. Van Mooy, 2016, "LOBSTAHS: An adduct-based lipidomics strategy for discovery and identification of oxidative stress biomarkers," in review, *Anal. Chem.*
 
-Users should note that the version of the ptH2O2lipids LOBSet in this package does not include any PUA identifications. 
+Users should note that the version of the ptH2O2lipids LOBSet in this package does not include any PUA identifications.
 
 <h4>.mzXML and .raw data files</h4>
 The .mzXML and Thermo (.raw) data files from which the objects in the dataset were created are not included in the `PtH2O2lipids` library due to their very large size.
 
    * The converted and centroided .mzXML files can be downloaded from [PtH2O2lipids/mzXML](https://github.com/vanmooylipidomics/PtH2O2lipids/tree/master/mzXML)
    * The original Thermo .raw files and some metadata can be accessed at http://www.whoi.edu/page.do?pid=133616&tid=282&cid=192529.
-   
+
 <h4>Installation</h4>
 
 **Install all dependencies except LOBSTAHS**
 
 ```R
 
-source("http://bioconductor.org/biocLite.R")
-biocLite("CAMERA")
-biocLite("xcms")
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("CAMERA")
+BiocManager::install("xcms")
 
 ```
 
@@ -60,7 +61,7 @@ install.packages("devtools")
 ```R
 
 library("devtools")
-install_github("vanmooylipidomics/LOBSTAHS") 
+install_github("vanmooylipidomics/LOBSTAHS")
 
 ```
 
@@ -68,9 +69,8 @@ install_github("vanmooylipidomics/LOBSTAHS")
 
 ```R
 ## install dataset 'PtH2O2lipids'
-## see LOBSTAHS documentation for examples 
+## see LOBSTAHS documentation for examples
 
 install_github("vanmooylipidomics/PtH2O2lipids")
 
 ```
-
