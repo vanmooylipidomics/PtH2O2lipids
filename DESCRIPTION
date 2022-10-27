@@ -14,7 +14,7 @@ Authors@R: c( person("Shiri", "Graff van Creveld", email =
         "Collins", email = "james.r.collins@aya.yale.edu", role =
         c("cre")) )
 Depends: R (>= 3.3), xcms, CAMERA, LOBSTAHS, methods, utils
-Suggests: gplots, RColorBrewer, cluster, vegan, clustsig
+Suggests: gplots, RColorBrewer, cluster, vegan
 Description: Annotated HPLC-ESI-MS lipid data in positive ionization
         mode from an experiment in which cultures of the marine diatom
         Phaeodactylum tricornutum were treated with various
